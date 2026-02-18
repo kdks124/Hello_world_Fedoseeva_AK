@@ -1,5 +1,5 @@
 name = "спектрофотометр"
 number = "200"
-state = "Исправен/нет"
+state = "Исправен"
 quantity = "1"
-print("Название прибора\tname\nномер\tnumber\nСостояние\tstate\nколичесвто\tquanity")
+print(f"Название прибора\t{name}\nНомер\t\t{number}\nСостояние\t{state}\nКоличество\t{quantity}")
