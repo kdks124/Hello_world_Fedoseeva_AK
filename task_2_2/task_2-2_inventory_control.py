@@ -1,3 +1,3 @@
-new_reagent = input("реактив")
-number = input("Количество")
-print(f"Реактив {new_reagent},поступил на склад в количестве {number} шт")
+new_reagent = input("Введите название реактива: ")
+number = int(input("Введите количество: "))
+print(f"Реактив {new_reagent} поступил на склад в количестве {number} шт.")
