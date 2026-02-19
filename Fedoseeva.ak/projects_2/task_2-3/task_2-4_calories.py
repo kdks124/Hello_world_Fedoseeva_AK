@@ -1,0 +1,5 @@
+ m_b = input("Введите массу белков:")
+ fat_mass = input("Масса жиров в продукте:")
+ mass_of_carbohydrates = input("масса углеводов в продукте:")
+ result = (m_b * 4) + (fat_mass * 9) + (mass_of_carbohydrates * 4)
+ print(f"{result}")
